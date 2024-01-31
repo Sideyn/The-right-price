@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Document metadata -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Page title -->
+    <title>The right price</title>
+  </head>
+  <body>
+    <!-- Main container for the page -->
+    <div class="container">
+      <!-- Header section -->
+      <div>
+        <header>The right price</header>
+      </div>
+
+      <!-- Form section -->
+      <div>
+        <form id="form">
+          <div>
+            <div>
+              <!-- Input field for guessing the price -->
+              <input
+                id="price"
+                placeholder="Guess the price! (between 0 and 1,000)"
+              />
+            </div>
+
+            <!-- Error message for invalid input -->
+            <small class="text-danger">You must enter a number.</small>
+
+            <!-- Button to submit the guess -->
+            <button type="submit" class="btn btn-primary">Guess</button>
+
+            <!-- Button to reset the game -->
+            <button type="button" id="reset" class="btn btn-primary">
+              Relaunch
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Container for displaying instructions -->
+      <div id="container-instructions">
+        <div id="instructions"></div>
+      </div>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="main.js"></script>
+  </body>
+</html>

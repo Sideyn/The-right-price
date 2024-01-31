@@ -1,0 +1,101 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Sixtyfour&display=swap");
+
+/* Styles for HTML and document body */
+html,
+body {
+  background-color: #232020;
+  min-width: 500px;
+}
+
+/* Style for the header */
+header {
+  font-family: "Honk", system-ui;
+  text-align: center;
+  font-size: 5em;
+}
+
+/* Style for the main container */
+.container {
+  text-align: center;
+}
+
+/* Styles for the form */
+#form {
+  margin: 25px auto;
+  background-color: #f5f5f5;
+  padding: 50px;
+  border-radius: 15px;
+  width: 50%;
+  box-shadow: inset 0 0 8px 2px black; /* Inner shadow effect for the form */
+}
+
+/* Style for the price input */
+#price {
+  width: 50%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for the error message */
+.text-danger {
+  font-family: "Sixtyfour", sans-serif;
+  color: red;
+  margin: 10px;
+  font-size: 1em;
+}
+
+/* Styles for buttons */
+.btn-primary {
+  font-family: "Sixtyfour", sans-serif;
+  background-color: #ff40aa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Hover style for the button */
+.btn-primary:hover {
+  background-color: #ff795e;
+}
+
+/* Styles for the instructions container */
+#container-instructions {
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+/* Styles for instructions */
+#instructions {
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+/* Styles for each individual instruction */
+.instruction {
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Styles for "It's more" instructions */
+.more {
+  background-color: #f6727faf;
+}
+
+/* Styles for "It's less" instructions */
+.less {
+  background-color: #ffa37292;
+}
+
+/* Styles for "Finished" instructions */
+.finished {
+  background-color: #0c9462a8;
+}
