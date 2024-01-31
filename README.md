@@ -11,13 +11,13 @@ Welcome to "The Right Price" – a game where your challenge is to guess the cor
 -**Reset the Game**: If you want to start fresh, click the "Relaunch" button to reset the game.
 
 ## Features
-**Random Price Generation**: A random price between 0 and 1,000 is generated for each round.
+-**Random Price Generation**: A random price between 0 and 1,000 is generated for each round.
 
-**Dynamic Feedback**: Receive instant feedback on your guesses, guiding you to the correct price.
+-**Dynamic Feedback**: Receive instant feedback on your guesses, guiding you to the correct price.
 
-**User-Friendly Interface**: The interface is designed for easy interaction, making the game accessible to everyone.
+-**User-Friendly Interface**: The interface is designed for easy interaction, making the game accessible to everyone.
 
-**Reset Functionality**: The "Relaunch" button allows you to reset the game and start a new round.
+-**Reset Functionality**: The "Relaunch" button allows you to reset the game and start a new round.
 
 ## Getting Started
 1. Open the game by clicking on this link: https://sideyn.github.io/The-right-price/.
